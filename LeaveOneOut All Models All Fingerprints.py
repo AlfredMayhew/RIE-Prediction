@@ -26,14 +26,14 @@ pd.set_option('display.max_columns', 50)
 scaler=RobustScaler()
 
 #create fingerprints from SMILES
-stringsmiles=open("Selected SMILES Structures.txt")
+stringsmiles=open("RIE-Data/Selected SMILES Structures.txt")
 smiles0=stringsmiles.readlines()
 SMILES=[]
 for i in smiles0:
     SMILES.append(i.strip())
 
 #create dataframe of all RIE Values
-dfRIE=pd.read_csv("Selected SMILES and logRIEs.csv",index_col=0)
+dfRIE=pd.read_csv("RIE-Data/Selected SMILES and logRIEs.csv",index_col=0)
 
 #List of all the fingerprints to be tested (and a list of their names 
 #for the tables)
