@@ -1,3 +1,10 @@
+#This is the code written to test RIE predictions from a wide range of 
+#model-fingerprint combinations. Bayesian Ridge regression was found to 
+#give the best predictions with our dataset. A separate script has been 
+#provided where only Bayesian Ridge Regression is used, which will require
+#less time to run. 
+
+#imports and turn off warnings
 import warnings
 from sklearn.exceptions import DataConversionWarning
 warnings.filterwarnings(action='ignore', category=DataConversionWarning)
