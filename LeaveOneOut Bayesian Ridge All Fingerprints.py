@@ -1,3 +1,8 @@
+#This script tests RIE predictions using different fingeprints with a 
+#Bayesian Ridge Regression model. A script testing a waider range of
+#model types has also been provided.
+
+#imports and warnings
 import warnings
 from sklearn.exceptions import DataConversionWarning
 warnings.filterwarnings(action='ignore', category=DataConversionWarning)
