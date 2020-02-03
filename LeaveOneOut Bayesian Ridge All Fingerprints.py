@@ -1,5 +1,5 @@
 #This script tests RIE predictions using different fingeprints with a 
-#Bayesian Ridge Regression model. A script testing a waider range of
+#Bayesian Ridge Regression model. A script testing a wider range of
 #model types has also been provided.
 
 #imports and warnings
